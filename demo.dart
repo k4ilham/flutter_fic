@@ -17,8 +17,18 @@ void main() {
   // // double total = null * 2;
   // double total = (price ?? 0) * 2;
 
-  double price = 25000;
-  double? qty;
-  double total = price * (qty ?? 0);
+  // double price = 25000;
+  // double? qty;
+  // double total = price * (qty ?? 0);
+  // print(total);
+
+  var price = 25000;
+  var qty = 10;
+  var total = (price * qty) + 1000;
   print(total);
+
+  var firstName = "Ilham";
+  var lastName = "Maulana";
+  var fullName = "$firstName $lastName";
+  print(fullName);
 }
